@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Information"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="330dp"
+        android:layout_height="262dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:singleLine="false"
+        android:text="This app is designed to increase your work efficiency.  First you will time how long it takes you to complete a certain task.  Next time you do the task, you will be on a stopwatch to see if you can beat the previous time.  If you do, you get 10 points, and when you get 100 points, you get to the next level!  Each time you complete the task, you will have to beat the previous time to get your points!"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+</android.support.constraint.ConstraintLayout>
